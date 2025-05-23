@@ -26,7 +26,7 @@ class PaytmWalletProvider implements ProviderContract {
 		$this->request = $request;
 		
 		if ($config['env'] == 'production') {
-			$domain = 'securegw.paytm.in';
+			$domain = 'secure.paytmpayments.com';
 		}else{
 			$domain = 'securegw-stage.paytm.in';
 		}
